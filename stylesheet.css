@@ -1,0 +1,111 @@
+.web-header {
+    text-align: center;
+    user-select: none;
+    top: 0;
+    width: 100%;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+
+#webheader-el {
+    display: inline-block;
+    font-family:monospace;
+    font-size: 28px;
+    color: #e2b750;
+    cursor: pointer;
+}
+
+.nav-content {
+    display: inline-block;
+    margin-left: 26px;
+    font-family:monospace;
+    font-size: 20px;
+    color: #e2b777;
+    cursor: pointer;
+}
+
+
+
+
+
+body {
+    font-family:monospace;
+    background-color: #212121;
+    margin-top: 10vh;
+    padding: 0;
+    height: 50vh;
+}
+
+
+.main-info-container {
+    text-align: center;
+    display: block;
+}
+
+.main-info-picture {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: block;
+}
+
+
+#main-info {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #c3a07e;
+    font-size: 22px;
+}
+
+
+
+
+
+.btn-container {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* Button Styles Below */
+.btn-form {
+    font-family: "Segoe UI", "Trebuchet MS";
+    font-weight: bold;
+    border-radius: 60px;
+    padding: 12px 18px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor:pointer;
+    color: #FFF;
+    border: 0px;
+    user-select: none;
+    transition: all 100ms ease-in-out;
+}
+.btn-form:hover {
+    opacity: 0.85;
+    top: -2.5px;
+}
+.btn-form:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 4px);
+}
+
+#btn-generator {
+    background: none;
+    color: #148f68;
+    border: 2px solid #148f68;
+}
+#btn-generator:hover {
+    background-color: #148f68;
+    color: white;
+    box-shadow: 0px 4px 0px 0px #0e664a;
+}
+#btn-generator:active {
+    box-shadow: 0px 1px 0px 0px #148f68;
+}
