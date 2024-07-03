@@ -16,6 +16,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+
+    #### NOTE: These are extra steps needed to deploy to IIS Server ####
     # - name: Setup .NET
     #   uses: actions/setup-dotnet@v1
     #   with: 

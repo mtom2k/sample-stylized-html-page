@@ -40,6 +40,11 @@ body {
 }
 
 
+.main-info-header {
+    text-align: center;
+    display: block;
+}
+
 .main-info-container {
     text-align: center;
     display: block;
@@ -52,6 +57,14 @@ body {
     display: block;
 }
 
+#main-introduction {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #c3a07e;
+    font-size: 28px;
+}
 
 #main-info {
     display: inline-block;
