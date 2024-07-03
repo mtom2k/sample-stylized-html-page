@@ -33,6 +33,4 @@ jobs:
     - name: Deploy to IIS Server
       shell: cmd
       run:
-        iisreset /stop
         xcopy /s /y ${{ github.workspace }}\* D:\web\sites\beta\tomeh
-        iisreset /start
